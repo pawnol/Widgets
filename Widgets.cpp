@@ -6,10 +6,10 @@ This program uses a class to represent products
 sold by Fidget Widget Inc. You must add the
 code to create another product with the following
 information...
-Product Name – Avocado Eraser
+Product Name â€“ Avocado Eraser
 Unit Cost - $1.50
 MSRP - $3.00
-Minimum Order Quantity – 10
+Minimum Order Quantity â€“ 10
 */
 #include <iostream>
 using namespace std;
@@ -49,10 +49,10 @@ int main()
     cout << "\n";
 
     Widget w2;
-    w1.productName = "Rubik's Cube";
-    w1.unitCost = 4.00;
-    w1.msrp = 12.00;
-    w1.minOrderQuantity = 15;
+    w2.productName = "Rubik's Cube";
+    w2.unitCost = 4.00;
+    w2.msrp = 12.00;
+    w2.minOrderQuantity = 15;
     printWidgetInfo(w2);
     cout << "\n";
 
